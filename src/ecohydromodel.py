@@ -16,7 +16,7 @@ from torch_geometric.utils import to_undirected,to_networkx
 from torch_geometric.nn import graclus
 from torch_geometric.nn.pool.pool import pool_edge, pool_pos
 from torch_geometric.nn.pool.consecutive import consecutive_cluster
-from torch_scatter import scatter
+from torch_geometric.utils import scatter
 
 from pysheds.grid import Grid
 from pyproj import Proj
@@ -24,7 +24,6 @@ from tensordict import TensorDict
 
 import torch
 import torch.nn as nn
-from torch_scatter import scatter
 import networkx as nx
 from collections import defaultdict
 import numpy as np
