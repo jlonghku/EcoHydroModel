@@ -20,13 +20,12 @@ classifiers = [
 
 # Keep runtime deps minimal
 dependencies = [
-  "numpy>=1.23,<1.25",
+  "numpy>=1.23,<2.0",        
   "pandas>=2.0",
-  "torch>=2.2",
+  "torch>=2.2,<2.6",        
+  "torch-geometric>=2.5,<2.7",
   "matplotlib>=3.7",
   "networkx>=3.0",
-  "torch-geometric>=2.5",
-  "torch-scatter>=2.1",
   "pysheds>=0.3",
   "pyproj>=3.6",
   "tensordict>=0.2",
