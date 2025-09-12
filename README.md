@@ -16,6 +16,26 @@ The framework is particularly suited for **hydrological and biogeochemical proce
 
 ---
 
+## 🖥️ System Requirements
+
+### Software dependencies & OS
+- Python 3.9–3.11  
+- numpy>=1.23,<2.0  
+- pandas>=2.0  
+- torch>=2.2  
+- torch-geometric>=2.5  
+- Recommended OS: Linux (Ubuntu 20.04/22.04) or macOS 12+  
+- Optional GPU: CUDA 11.x/12.x
+
+### Tested versions
+- Windows 11 (Ubuntu 22.04, macOS 13) + Python 3.10 + PyTorch 2.2 + PyG 2.5  
+
+### Hardware
+- CPU-only runs supported  
+- Recommended for large runs: NVIDIA GPU ≥8 GB, system RAM ≥16 GB, disk ≥10 GB
+
+---
+
 ## 📦 Installation
 
 ```bash
